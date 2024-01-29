@@ -1,0 +1,14 @@
+import sys
+
+# Check if there is exactly one command-line argument
+if len(sys.argv) != 2:
+    print("Usage: python script.py [argument]")
+else:
+    # Extract the argument
+    argument = sys.argv[1]
+
+    # Check if the argument is "pizza"
+    if argument == "pizza":
+        print("with pineapple?")
+    else:
+        print("I want pizza!")
